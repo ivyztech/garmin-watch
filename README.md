@@ -63,7 +63,9 @@ Cadence Quality is a **composite score (0–100)** derived from two components:
 Cadence Quality = (Time-in-Zone × 70%) + (Cadence Smoothness × 30%)
 This weighting reflects research priorities where consistency matters more than momentary precision.
 
-⏱️ Warm-Up Window
+---
+
+### ⏱️ Warm-Up Window
 To reduce early-run noise:
 
 CQ is withheld during the initial warm-up period
