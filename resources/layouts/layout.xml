@@ -1,0 +1,57 @@
+<layout id="MainLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+   <!-- Cadence Icon -->
+<bitmap id="cadence_icon" 
+    x="75%"
+    y="32%"
+    filename="../drawables/cadence_icon.png" />
+
+<!-- Cadence Text -->
+<label id="cadence_text" 
+    x="80%" 
+    y="center" 
+    font="Gfx.FONT_LARGE"
+    justification="Gfx.TEXT_JUSTIFY_CENTER"
+    color="Gfx.COLOR_GREEN" />
+
+
+
+<!-- Heart Rate Icon -->
+<bitmap id="heartrate_icon" 
+    x="15%" 
+    y="32%"
+    filename="../drawables/heart-rate.png" />
+
+<!-- Heart Rate Text -->
+<label id="heartrate_text"
+    x="20%"
+    y="center"
+    font="Gfx.FONT_LARGE"
+    justification="Gfx.TEXT_JUSTIFY_CENTER"
+    color="Gfx.COLOR_DK_RED" />
+
+<!-- Distance -->
+<label id="distance_text"
+    x="center"
+    y="70%"
+    font="Gfx.FONT_SMALL"
+    justification="Gfx.TEXT_JUSTIFY_CENTER"
+    color="Gfx.COLOR_PURPLE" />
+
+<!-- Time -->
+<label id="time_text"
+    x="center"
+    y="15%"
+    font="Gfx.FONT_LARGE"
+    justification="Gfx.TEXT_JUSTIFY_CENTER"
+    color="Gfx.COLOR_WHITE" />
+
+<!-- Cadence Quality (Easter Egg) -->
+<label id="cq_text"
+    x="center"
+    y="85%"
+    font="Gfx.FONT_TINY"
+    justification="Gfx.TEXT_JUSTIFY_CENTER"
+    color="Gfx.COLOR_LT_GRAY" />
+
+
+</layout>
